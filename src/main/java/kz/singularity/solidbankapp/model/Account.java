@@ -1,4 +1,6 @@
 package kz.singularity.solidbankapp.model;
+import java.lang.String;
+
 
 public class Account {
 
@@ -62,13 +64,16 @@ public class Account {
 
     @Override
     public String toString() {
+
+        String accountNumber = String.format("%03d%06d", 1, Integer.parseInt(id));
         return "Account{" +
                 "accountType=" + accountType +
-                ", id='" + id + '\'' +
+                ", id='" + accountNumber + '\'' +
                 ", clientID='" + clientID + '\'' +
                 ", balance=" + balance +
                 ", withdrawAllowed=" + withdrawAllowed +
                 '}';
+
     }
 }
 

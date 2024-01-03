@@ -9,6 +9,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SolidBankAppApplication {
 
     public static void main(String[] args) {
+
+
         boolean running = true;
         String clientID = "1";
         ApplicationContext context = new ClassPathXmlApplicationContext("props.xml");
