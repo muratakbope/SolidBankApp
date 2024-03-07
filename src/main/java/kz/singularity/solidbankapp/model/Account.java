@@ -73,7 +73,6 @@ public class Account {
                 ", balance=" + balance +
                 ", withdrawAllowed=" + withdrawAllowed +
                 '}';
-
     }
 }
 

@@ -11,9 +11,9 @@ public class MemoryAccountDAO implements AccountDAO {
 
     List<Account> accountList = new ArrayList<>();
     @Override
-    public List<Account> getClientAccount(String clientID) {
+    public List<Account> getClientAccounts(String clientID) {
 
-        return this.accountList = accountList;
+        return accountList;
     }
 
     @Override
