@@ -10,7 +10,7 @@
 
 1. Склонируйте репозиторий на свой локальный компьютер:
 ```
-  git clone https://github.com/akbopem/SOLIDBankApp.git
+  git clone https://github.com/muratakbope/SolidBankApp
 ```
 2. Откройте проект в вашей Java IDE (например, Intellij IDEA).
 3. Запустите проект.
